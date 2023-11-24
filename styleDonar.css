@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Lobster&display=swap');
+
+
+.body {
+    font-family: 'poppins';
+    background-image: url(backgroundDelfin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.titulo {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    cursor: default;
+    position: relative;
+    height: auto;
+    min-height: 60px;
+    background-color: #000000;
+}
+
+
+.botondiv input {
+    display: none;
+}
+
+.botondiv label {
+    display: none;
+}
+
+.lista {
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.lista a {
+    color: rgb(255, 255, 255);
+}
+
+.secciones {
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    margin: 10px 0;
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: grab;
+}
+
+.secciones:hover {
+    background-color: rgba(10, 150, 206, 0.938);
+    transition: 1s;
+}
+
+
+.secciones:active {
+    color: black;
+    cursor: grabbing;
+}
+
+
+.titulo div{
+    
+        margin-left: 30px;
+        margin-right: 30px;
+    
+    
+}
+
+.inicio {
+    text-decoration: none;
+    list-style: none;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+    cursor: grab;
+    background-color: rgb(2, 138, 230);
+    color: #000000
+}
+
+.portada {
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact_form {
+    width: 460px;
+    height: fit-content;
+    margin:  auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #070707;
+    padding-left: 30px;
+}
+
+
+input {
+    background-color: #97d848;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #97d848;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+textarea {
+    background-color: #80DAEB;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #97d848;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+
+label {
+    display: block;
+    float: center;
+}
+
+
+button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #97d848;
+    border-color: #97d827;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+
+button p {
+    color: #fff;
+}
+
+
+span {
+    color: #97d848;
+}
+
+
+.aviso {
+    font-size: 13px;
+    color: #97d848;
+}
+
+
+h1 {
+    font-size: 39px;
+    text-align: letf;
+    padding-bottom: 20px;
+    color: #97d848;
+}
+
+.pForm{
+    font-size: 14px;
+    color: #97d848;
+}
+
+
+::-webkit-input-placeholder {
+    color: #000000;
+}
+
+
+::-webkit-textarea-placeholder {
+    color: #000000;
+}
+
+
+.formulario input:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+/* Acá agrego todo el css de la pagina "Sobre nosotros" */
+
+.body-about-us {
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#fondo-titulo {
+    background-color: #a8a8a8;
+    color: aliceblue;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+    padding: 100px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+    text-align: center;
+}
+
+.about-us,
+.historia {
+    color: aliceblue;
+    letter-spacing: 0.9px;
+
+}
+
+.about-us {
+    padding-bottom: 20px;
+}
+
+#fundador {
+
+    height: auto;
+}
+
+.titulo-fundadores {
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+}
+
+
+
+
+
+
+@media all and (max-width: 710px) {
+
+    input:checked~ul {
+        display: block;
+        position: absolute;
+        right: 130px;
+        z-index: 1;
+    }
+
+    .cajaindex h1 {
+        text-align: center;
+    }
+
+    .caja h1 {
+        text-align: center;
+        line-height: 1.05;
+    }
+
+    .secciones:active {
+        background-color: rgba(255, 255, 255, 0.867) !important;
+    }
+
+    .inicio {
+        text-align: center !important;
+        margin-bottom: 0px !important;
+        margin-top: 10px !important;
+    }
+
+    .lista {
+        padding: 10px !important;
+    }
+
+    .secciones li {
+        text-align: center !important;
+    }
+
+    .secciones:hover {
+        background-color: rgb(2, 138, 230) !important;
+    }
+
+    input:checked~label {
+        background: rgb(101, 32, 192);
+    }
+
+    label:hover {
+        background: rgb(30, 196, 71);
+    }
+
+    li {
+        margin: 0px;
+        text-align: left;
+    }
+
+    .titulo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    label {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #1f1930;
+        border-radius: 5px;
+        width: 50px;
+        height: 40px;
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        user-select: none;
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+    }
+
+
+    .lista {
+        display: none;
+        background-color: rgb(222, 222, 222);
+    }
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(2, 138, 230);
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+    .parrafoCajaIndex{
+        padding: 5px;
+    }
+    
+    .parrafoCajaIndex p{
+        font-size: xx-large;
+    }
+    
+    
+    
+    
+    
+    footer{
+        background-color: black;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+    }
+
+}

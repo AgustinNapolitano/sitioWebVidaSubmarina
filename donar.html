@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleDonar.css">
+    <title>Vida Submarina</title>
+    
+</head>
+
+<body class="body">
+    <nav class="titulo">
+        <div class="botondiv">
+            <input type="checkbox" id="menu">
+            <label for="menu"> ☰ </label>
+            <ul class="lista">
+                <a href="index.html">
+                    <li class="inicio">Inicio</li>
+                </a>
+                <a class="secciones" href="sobreNosotros.html">
+                    <li class="miembros">Sobre Nosotros</li>
+                </a>
+                <a class="secciones" href="proyecto2.html">
+                    <li>Programas</li>
+                </a>
+                <a class="secciones" href="contacto.html">
+                    <li>Contacto</li>
+                </a>
+                <a class="secciones" href="donar.html">
+                    <li>DONAR</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="contact_form">
+    
+        <div class="formulario">
+            <h1>CONTRIBUCION VIDA-SUBMARINA</h1>
+             <form method="post">
+    
+    
+                <p class="pForm">
+                    <label for="nombre" class="colocar_nombre">Nombre completo
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                        placeholder="Escribe tu nombre">
+                </p>
+    
+                <p class="pForm">
+                    <label for="email" class="colocar_email">Cantidad que desea donar
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="number" name="introducir_cantidad" id="email" required="obligatorio"
+                        placeholder="$">
+                </p>
+    
+                <p class="pForm">
+                    <label for="mensaje" class="colocar_mensaje">Cuentanos porque decidiste donar esta cantiad de dinero
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                        placeholder="Deja aquí tu comentario..."></textarea>
+                </p>
+    
+    
+    
+                <button type="submit" name="enviar_formulario" id="enviar">
+                    <p class="pForm">DONAR</p>
+                </button>
+    
+                <p class="aviso">
+                    <span class="obligatorio"> * </span> <strong> Al presionar enviar usted esta aceptando nuestra
+                        politica de
+                        privacidad.</strong>
+                </p>
+                <p class="aviso">
+                    <span class="obligatorio"> * </span> <b> Los campos son obligatorios.</b>
+                </p>
+    
+            </form>
+        </div>
+    </div>
+
+
+    <footer>
+      <b> UADE-</b><p>© FEDERICO EDUARDO MARTINEZ © AGUSTIN NAPOLITANO © NICOLAS ACOSTA</p>
+    </footer>
+
+
+</body>
+
+</html>
